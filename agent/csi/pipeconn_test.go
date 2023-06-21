@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	modcsi "github.com/rexray/rexray/agent/csi"
+	modcsi "github.com/joan-s-molas/rexray/agent/csi"
 )
 
 const (

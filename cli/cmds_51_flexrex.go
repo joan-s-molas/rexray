@@ -8,10 +8,10 @@ import (
 	"path"
 
 	"github.com/akutz/gotil"
-	"github.com/rexray/rexray/util"
+	"github.com/joan-s-molas/rexray/util"
 	"github.com/spf13/cobra"
 
-	apictx "github.com/rexray/rexray/libstorage/api/context"
+	apictx "github.com/joan-s-molas/rexray/libstorage/api/context"
 )
 
 func init() {

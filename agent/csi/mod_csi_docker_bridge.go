@@ -16,9 +16,9 @@ import (
 	"github.com/thecodeteam/gocsi/csi"
 	"github.com/thecodeteam/gocsi/mount"
 
-	apictx "github.com/rexray/rexray/libstorage/api/context"
-	"github.com/rexray/rexray/libstorage/api/registry"
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
+	apictx "github.com/joan-s-molas/rexray/libstorage/api/context"
+	"github.com/joan-s-molas/rexray/libstorage/api/registry"
+	apitypes "github.com/joan-s-molas/rexray/libstorage/api/types"
 	dvol "github.com/docker/go-plugins-helpers/volume"
 )
 

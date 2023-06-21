@@ -16,10 +16,10 @@ import (
 	"github.com/akutz/gotil"
 	"github.com/gorilla/mux"
 
-	"github.com/rexray/rexray/libstorage/api/context"
-	"github.com/rexray/rexray/libstorage/api/registry"
-	"github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/libstorage/api/utils"
+	"github.com/joan-s-molas/rexray/libstorage/api/context"
+	"github.com/joan-s-molas/rexray/libstorage/api/registry"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/api/utils"
 )
 
 const defaultEndpointConfig = `

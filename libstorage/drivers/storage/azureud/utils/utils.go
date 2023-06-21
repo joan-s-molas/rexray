@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/libstorage/drivers/storage/azureud"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/drivers/storage/azureud"
 )
 
 const (

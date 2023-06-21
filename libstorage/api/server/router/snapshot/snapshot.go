@@ -3,11 +3,11 @@ package snapshot
 import (
 	gofig "github.com/akutz/gofig/types"
 
-	"github.com/rexray/rexray/libstorage/api/registry"
-	"github.com/rexray/rexray/libstorage/api/server/handlers"
-	"github.com/rexray/rexray/libstorage/api/server/httputils"
-	"github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/libstorage/api/utils/schema"
+	"github.com/joan-s-molas/rexray/libstorage/api/registry"
+	"github.com/joan-s-molas/rexray/libstorage/api/server/handlers"
+	"github.com/joan-s-molas/rexray/libstorage/api/server/httputils"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/api/utils/schema"
 )
 
 func init() {

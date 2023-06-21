@@ -11,11 +11,11 @@ import (
 	"github.com/akutz/goof"
 	"github.com/akutz/gotil"
 
-	"github.com/rexray/rexray/libstorage/api/registry"
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/api/registry"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
 
-	"github.com/rexray/rexray/libstorage/drivers/storage/s3fs"
-	"github.com/rexray/rexray/libstorage/drivers/storage/s3fs/utils"
+	"github.com/joan-s-molas/rexray/libstorage/drivers/storage/s3fs"
+	"github.com/joan-s-molas/rexray/libstorage/drivers/storage/s3fs/utils"
 )
 
 // driver is the storage executor for the s3fs storage driver.

@@ -1,4 +1,4 @@
-module github.com/rexray/rexray
+module github.com/joan-s-molas/rexray
 
 go 1.17
 

@@ -6,7 +6,7 @@ import (
 
 	"github.com/thecodeteam/gocsi/csi"
 
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
+	apitypes "github.com/joan-s-molas/rexray/libstorage/api/types"
 )
 
 var errMissingServiceName = errors.New("missing service name")

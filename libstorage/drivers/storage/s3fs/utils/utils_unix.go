@@ -3,7 +3,7 @@
 package utils
 
 import (
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
 )
 
 // NextDeviceInfo is the NextDeviceInfo object for S3FS.

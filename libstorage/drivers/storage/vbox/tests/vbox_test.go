@@ -3,11 +3,11 @@ package vbox
 import (
 	"testing"
 
-	apitests "github.com/rexray/rexray/libstorage/api/tests"
+	apitests "github.com/joan-s-molas/rexray/libstorage/api/tests"
 
 	// load the driver packages
-	"github.com/rexray/rexray/libstorage/drivers/storage/vbox"
-	_ "github.com/rexray/rexray/libstorage/drivers/storage/vbox/storage"
+	"github.com/joan-s-molas/rexray/libstorage/drivers/storage/vbox"
+	_ "github.com/joan-s-molas/rexray/libstorage/drivers/storage/vbox/storage"
 )
 
 func TestSuite(t *testing.T) {

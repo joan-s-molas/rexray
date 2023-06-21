@@ -12,9 +12,9 @@ import (
 	"github.com/akutz/goof"
 	"github.com/akutz/gotil"
 
-	"github.com/rexray/rexray/libstorage/api/registry"
-	"github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/libstorage/drivers/storage/isilon"
+	"github.com/joan-s-molas/rexray/libstorage/api/registry"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/drivers/storage/isilon"
 )
 
 // driver is the storage executor for the vbox storage driver.

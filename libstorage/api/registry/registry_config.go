@@ -3,7 +3,7 @@ package registry
 import (
 	"github.com/akutz/gofig"
 
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
 )
 
 // NewConfig is a function that returns a new Config object.
