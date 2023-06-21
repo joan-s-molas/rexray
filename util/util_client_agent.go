@@ -5,8 +5,8 @@ package util
 import (
 	gofig "github.com/akutz/gofig/types"
 
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
-	apiclient "github.com/rexray/rexray/libstorage/client"
+	apitypes "github.com/joan-s-molas/rexray/libstorage/api/types"
+	apiclient "github.com/joan-s-molas/rexray/libstorage/client"
 )
 
 func activateLibStorage(

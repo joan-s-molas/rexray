@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/rexray/rexray/libstorage/api/server/httputils"
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/api/server/httputils"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
 )
 
 var (

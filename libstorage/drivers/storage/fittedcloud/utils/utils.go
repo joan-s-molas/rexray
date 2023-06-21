@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/libstorage/drivers/storage/fittedcloud"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/drivers/storage/fittedcloud"
 )
 
 const (

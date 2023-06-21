@@ -1,5 +1,5 @@
 {
-    "id": "https://github.com/rexray/libstorage",
+    "id": "https://github.com/joan-s-molas/libstorage",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "libStorage JSON Schema",
     "definitions": {

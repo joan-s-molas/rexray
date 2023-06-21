@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/rexray/rexray/libstorage/api/context"
-	"github.com/rexray/rexray/libstorage/api/server/auth"
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/api/context"
+	"github.com/joan-s-molas/rexray/libstorage/api/server/auth"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
 )
 
 // authSvcHandler is an HTTP filter for validating the JWT.

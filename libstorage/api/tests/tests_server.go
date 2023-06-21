@@ -5,8 +5,8 @@ import (
 
 	"github.com/akutz/gotil"
 
-	apiserver "github.com/rexray/rexray/libstorage/api/server"
-	"github.com/rexray/rexray/libstorage/api/utils"
+	apiserver "github.com/joan-s-molas/rexray/libstorage/api/server"
+	"github.com/joan-s-molas/rexray/libstorage/api/utils"
 )
 
 func (t *testRunner) initTCPSocket() {

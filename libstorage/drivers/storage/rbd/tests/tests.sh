@@ -38,7 +38,7 @@ fi
 docker volume rm rbd_test
 
 # Create an implicit volume and make sure it shows up as attached in rexray
-docker run -d --volume-driver rexray -v rbd_test:/test --name rbdtest busybox tail -f /dev/null
+docker run  -d --volume-driver rexray -v rbd_test:/test --name rbdtest busybox tail -f /dev/null
 docker volume inspect rbd_test
 ATTACH_STATE=$(sudo rexray volume get rbd_test --format json | jq -r '.[0].attachmentState')
 if [ ! ${ATTACH_STATE} -eq 2 ]; then

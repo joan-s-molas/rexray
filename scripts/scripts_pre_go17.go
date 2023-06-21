@@ -7,7 +7,7 @@ package scripts
 import (
 	"net/http"
 
-	apitypes "github.com/rexray/rexray/libstorage/api/types"
+	apitypes "github.com/joan-s-molas/rexray/libstorage/api/types"
 	"golang.org/x/net/context/ctxhttp"
 )
 

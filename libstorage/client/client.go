@@ -5,20 +5,20 @@ import (
 	log "github.com/sirupsen/logrus"
 	gocontext "golang.org/x/net/context"
 
-	"github.com/rexray/rexray/libstorage/api/context"
-	"github.com/rexray/rexray/libstorage/api/registry"
-	"github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/libstorage/api/utils"
-	apicnfg "github.com/rexray/rexray/libstorage/api/utils/config"
+	"github.com/joan-s-molas/rexray/libstorage/api/context"
+	"github.com/joan-s-molas/rexray/libstorage/api/registry"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/api/utils"
+	apicnfg "github.com/joan-s-molas/rexray/libstorage/api/utils/config"
 
 	// load the config
-	_ "github.com/rexray/rexray/libstorage/imports/config"
+	_ "github.com/joan-s-molas/rexray/libstorage/imports/config"
 
 	// load the libStorage storage executors
-	_ "github.com/rexray/rexray/libstorage/imports/executors"
+	_ "github.com/joan-s-molas/rexray/libstorage/imports/executors"
 
 	// load the libStorage storage driver
-	_ "github.com/rexray/rexray/libstorage/drivers/storage/libstorage"
+	_ "github.com/joan-s-molas/rexray/libstorage/drivers/storage/libstorage"
 )
 
 type client struct {

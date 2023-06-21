@@ -15,8 +15,8 @@ import (
 	"github.com/akutz/goof"
 	"github.com/akutz/gotil"
 
-	"github.com/rexray/rexray/libstorage/api/context"
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/api/context"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
 )
 
 var knownHostRX = regexp.MustCompile(`(?i)^([^\s]+?)\s([^\s]+?)\s(.+)$`)

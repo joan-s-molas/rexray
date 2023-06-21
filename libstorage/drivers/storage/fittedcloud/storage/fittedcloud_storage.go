@@ -20,14 +20,14 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	awsec2 "github.com/aws/aws-sdk-go/service/ec2"
 
-	"github.com/rexray/rexray/libstorage/api/context"
-	"github.com/rexray/rexray/libstorage/api/registry"
-	"github.com/rexray/rexray/libstorage/api/types"
-	apiUtils "github.com/rexray/rexray/libstorage/api/utils"
+	"github.com/joan-s-molas/rexray/libstorage/api/context"
+	"github.com/joan-s-molas/rexray/libstorage/api/registry"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
+	apiUtils "github.com/joan-s-molas/rexray/libstorage/api/utils"
 
-	"github.com/rexray/rexray/libstorage/drivers/storage/fittedcloud"
-	"github.com/rexray/rexray/libstorage/drivers/storage/fittedcloud/fcagent"
-	fcUtils "github.com/rexray/rexray/libstorage/drivers/storage/fittedcloud/utils"
+	"github.com/joan-s-molas/rexray/libstorage/drivers/storage/fittedcloud"
+	"github.com/joan-s-molas/rexray/libstorage/drivers/storage/fittedcloud/fcagent"
+	fcUtils "github.com/joan-s-molas/rexray/libstorage/drivers/storage/fittedcloud/utils"
 )
 
 const (

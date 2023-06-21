@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/akutz/gotil"
-	"github.com/rexray/rexray/libstorage/api/context"
+	"github.com/joan-s-molas/rexray/libstorage/api/context"
 )
 
 func TestCreateSelfCert(t *testing.T) {

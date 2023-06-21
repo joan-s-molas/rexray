@@ -3,11 +3,11 @@ package executor
 import (
 	gofig "github.com/akutz/gofig/types"
 
-	"github.com/rexray/rexray/libstorage/api/registry"
-	"github.com/rexray/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/api/registry"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
 
-	"github.com/rexray/rexray/libstorage/drivers/storage/fittedcloud"
-	fcUtils "github.com/rexray/rexray/libstorage/drivers/storage/fittedcloud/utils"
+	"github.com/joan-s-molas/rexray/libstorage/drivers/storage/fittedcloud"
+	fcUtils "github.com/joan-s-molas/rexray/libstorage/drivers/storage/fittedcloud/utils"
 )
 
 // driver is the storage executor for the ec2 storage driver.

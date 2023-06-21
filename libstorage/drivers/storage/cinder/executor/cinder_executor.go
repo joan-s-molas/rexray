@@ -4,10 +4,10 @@ import (
 	gofig "github.com/akutz/gofig/types"
 	"github.com/akutz/goof"
 
-	"github.com/rexray/rexray/libstorage/api/registry"
-	"github.com/rexray/rexray/libstorage/api/types"
-	"github.com/rexray/rexray/libstorage/api/utils"
-	"github.com/rexray/rexray/libstorage/drivers/storage/cinder"
+	"github.com/joan-s-molas/rexray/libstorage/api/registry"
+	"github.com/joan-s-molas/rexray/libstorage/api/types"
+	"github.com/joan-s-molas/rexray/libstorage/api/utils"
+	"github.com/joan-s-molas/rexray/libstorage/drivers/storage/cinder"
 
 	"encoding/json"
 	"io/ioutil"
